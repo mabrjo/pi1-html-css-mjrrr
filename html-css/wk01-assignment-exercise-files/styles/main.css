@@ -7,6 +7,10 @@ body {
 /* the styles for the header */
 header img {
 	float: left;
+<<<<<<< HEAD
+=======
+	height: 80;
+>>>>>>> upstream/master
 }
 
 /* the styles for the section */
