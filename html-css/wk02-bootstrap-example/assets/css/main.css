@@ -14,13 +14,35 @@
 
 .card-section{
     padding: 2em 20%;
+    height: 570px;
 }
 
 #transportation {
-    background-image: url("../imgs/duotone.png");
-    
+    background-image: url("../imgs/card_duotone.png");
 }
 
-/* .card {
-    height: 341px;
+.img-container {
+    height: ;
+}
+.card-img-top {
+    height: 20vw;
+    object-fit: cover;
+}
+.card-body {
+    height: 10vw;
+    object-fit: cover;
+}
+.card {
+    /* height: 150px; */
+}
+
+.list-row {
+    padding: 3em 20%;
+    background-color: #10c5f8;
+}
+.tab-content {
+    font-size: 1.5em;
+}
+/* .list-group-item-dark {
+    background-color: black;
 } */
