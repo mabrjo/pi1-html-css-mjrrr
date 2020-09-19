@@ -1,0 +1,26 @@
+.html {
+    font-family: 'Raleway', sans-serif;
+}
+
+.carousel-item {
+   max-height: 500px;
+}
+
+.quote {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.card-section{
+    padding: 2em 20%;
+}
+
+#transportation {
+    background-image: url("../imgs/duotone.png");
+    
+}
+
+/* .card {
+    height: 341px;
+} */
