@@ -19,17 +19,18 @@
 
 #transportation {
     background-image: url("../imgs/card_duotone.png");
+
 }
 
 .img-container {
     height: ;
 }
 .card-img-top {
-    height: 20vw;
+    height: 20em;
     object-fit: cover;
 }
 .card-body {
-    height: 10vw;
+    height: 10em;
     object-fit: cover;
 }
 .card {
@@ -43,6 +44,4 @@
 .tab-content {
     font-size: 1.5em;
 }
-/* .list-group-item-dark {
-    background-color: black;
-} */
+
