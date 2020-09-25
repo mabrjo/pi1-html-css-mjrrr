@@ -74,6 +74,7 @@ section blockquote {
 }
 section ul {
 	padding: 0 0 .25em 1.25em;
+	list-style-type: circle;
 }
 section li {
 	padding-bottom: .35em;
@@ -129,8 +130,29 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+/* Nav Menu CSS */
+#nav_menu {
+	position: relative;
+}
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#nav_menu > ul > li > ul {
+	display: none;
+	position: absolute;
+	top: 0;
+}
 
-nav > ul{
+#nav_menu > ul > li:hover > ul {
+	display: block;
+}
+#nav_menu > ul > li > ul > li {
+	float: none;
+}
+
+nav ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
