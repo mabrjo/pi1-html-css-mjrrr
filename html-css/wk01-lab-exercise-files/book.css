@@ -20,7 +20,15 @@ p {
 	margin: 0;
 	padding-bottom: .5em;
 }
+<<<<<<< HEAD
 #service {
 	color: red;
 	clear: both;
 }
+=======
+#service
+{
+	color:red;
+	clear:both;
+}
+>>>>>>> e6ab801e8527f196ab2601bf41d86eafb0140c9d
